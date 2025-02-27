@@ -92,13 +92,23 @@ CR
 DIFF_Time @ >MS . ." ." .
 CR
 
+
+: TIMES-RUN-POLI ( n -- )
+  0 DO
+    CR 8 DUP POLI3 CR . ." POLI3 = " RES @ .
+  LOOP ;
+
+: TIMES-RUN ( n -- )
+  0 DO
+    8 DUP DUP 4 * 9 + * 7 + * 5 + DROP \ .
+  LOOP ;
+
 CR
 ." --- Test: X POLI3 -------------------------" CR
-
 GET_START_TIME
 ." Start time: " START_Time @ . CR
 
-8 DUP POLI3 CR . ." POLI3 = " RES @ . CR
+100 TIMES-RUN-POLI
 CR
 
 GET_END_TIME  
@@ -117,12 +127,12 @@ CR
 CR
 ." --- Test: 8 DUP DUP 4 * 9 + * 7 + * 5 + ---" 
 CR
-
 GET_START_TIME
 ." Start time: " START_Time @ . CR
 
 CR 
-8 DUP DUP 4 * 9 + * 7 + * 5 + 
+100 TIMES-RUN
+CR 
 
 GET_END_TIME  
 ." End time: " END_Time @ . CR
@@ -135,9 +145,6 @@ CR
 ." Time difference в миллисекундах: "
 DIFF_Time @ >MS . ." ." .
 CR
-
-." Simple res = " . CR
-
 
 
 bye
