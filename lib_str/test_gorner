@@ -1,0 +1,54 @@
+
+<<< ----------------------------------- >>>
+<<< Author: LN Kornilov --------------- >>>
+<<< Github: github.com/KornilovLN ----- >>>
+<<< email:  ln.KornilovStar@gmail.com - >>>
+<<< ----------------------------------- >>>
+
+<<< ----------------------------------- >>>
+<<< Project: Testing library: --------- >>>
+<<< lib_commom.fs --------------------- >>>
+<<< data:   26-02-2025   18:40:00 ----- >>>
+<<< ----------------------------------- >>>
+
+--- Test: X POLINOME3 ---------------------
+Start time: 1740613634063784 
+
+Stack: <2> 8 8 
+Stack: <3> 8 8 8 
+Stack: <4> 8 8 8 8 
+Stack: <5> 8 8 8 8 4 
+Stack: <4> 8 8 8 32 
+Stack: <5> 8 8 8 32 9 
+Stack: <4> 8 8 8 41 
+Stack: <3> 8 8 328 
+Stack: <4> 8 8 328 7 
+Stack: <3> 8 8 335 
+Stack: <2> 8 2680 
+Stack: <3> 8 2680 5 
+Stack: <2> 8 2685 
+Stack: <3> 8 2685 140596151542704 
+Stack: <1> 8 
+
+8 POLINOME3 = 2685 
+
+End time: 1740613634063858 
+Time difference в микросекундах: 74 
+Time difference в миллисекундах: 0 .74 
+
+--- Test: X POLI3 -------------------------
+Start time: 1740613634063925 
+
+8 POLI3 = 2685 
+
+End time: 1740613634063965 
+Time difference в микросекундах: 40 
+Time difference в миллисекундах: 0 .40 
+
+--- Test: 8 DUP DUP 4 * 9 + * 7 + * 5 + ---
+Start time: 1740613634064034 
+
+End time: 1740613634064077 
+Time difference в микросекундах: 43 
+Time difference в миллисекундах: 0 .43 
+Simple res = 2685 

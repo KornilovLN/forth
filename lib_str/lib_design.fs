@@ -37,3 +37,18 @@
     ." >>>"
 ;
 
+: AUTHOR
+35 SCOBA_LINE cr
+S" Author: LN Kornilov" 15 TITLE_LINE cr
+S" Github: github.com/KornilovLN" 5 TITLE_LINE cr
+S" email:  ln.KornilovStar@gmail.com" 1 TITLE_LINE cr
+35 SCOBA_LINE cr
+;
+
+: PROJECT
+35 SCOBA_LINE cr
+S" Project: Testing library:" 9 TITLE_LINE cr
+21 TITLE_LINE cr
+S" data:   26-02-2025   18:40:00" 5 TITLE_LINE cr
+35 SCOBA_LINE cr
+;

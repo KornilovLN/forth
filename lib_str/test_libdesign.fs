@@ -15,7 +15,9 @@ VARIABLE LEN3
 28 LEN3 !
 
 \ --- Test ------------------------------------------
-CR ." ============= Start test ==================" CR
+CR ." ============= AUTHOR, PROJECT =============" CR
+AUTHOR CR
+S" lib_design.fs" PROJECT
 
 CR ." ============= SCOBA_LINE ==================" CR
 LEN1 @ SCOBA_LINE
