@@ -12,7 +12,7 @@ HEX
 .         DUMP    SPACE   SPACES    EMIT
 TYPE      EXPECT    DIGIT   CR      KEY           
 ```
-## Sata stack
+## Data stack
 ```
 DUP       DROP    SWAP    OVER      ABS           
 +         -       0<      @         !
