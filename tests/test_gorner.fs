@@ -68,18 +68,8 @@ TIME_DIFF  DIFF_Time @ .  CR
 DIFF_Time @ >MS.PRINT  CR
 \ -------------------------------------------------
 
-CR
-create v 26 cells allot  \ let v2: [u64,20]
-v 26 cells dump          \ dump array v2
-65 v 0 cells + !         \ v2[0] = 65
-66 v 1 cells + !         \ v2[1] = 66               
-67 v 2 cells + !         \ v2[2] = 67 
-68 v 3 cells + !         \ v2[3] = 68
-87 v 22 cells + !        \ v2[22] = 87
-88 v 23 cells + !        \ v2[23] = 88  
-89 v 24 cells + !        \ v2[24] = 89
-90 v 25 cells + !        \ v2[25] = 90  
-v 26 cells dump          \ dump array v2 
+
 
 bye
 
+token_tree
