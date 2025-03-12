@@ -3,6 +3,10 @@ add_commit_push.sh
 books/
 info/
 
+meсrisp-stellaris-prj/
+meсrisp-stellaris/
+save/
+
 # Дерево подкаталогов
 tree
 
